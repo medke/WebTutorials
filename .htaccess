@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^forum\-([0-9]+)\.html$   http://ar.fienders.com/voirforum.php?f=$1 
+RewriteRule ^topic\-([0-9]+)\.html$   http://ar.fienders.com/voirtopic.php?t=$1
+RewriteRule ^profil\-([a-z]+)\-([0-9]+)\.html$  http://ar.fienders.com/voirprofil.php?m=$2&action=$1
+RewriteRule ^forum.html$   http://ar.fienders.com/forum.php
+RewriteRule ^forum$   http://ar.fienders.com/forum.php
+RewriteRule ^index.html$   http://ar.fienders.com/index.php
+RewriteRule ^index$   http://ar.fienders.com/index.php
+RewriteRule ^mes_tuto.html$   http://ar.fienders.com/index_cour.php
+RewriteRule ^contact.html$   http://ar.fienders.com/contact.php
+RewriteRule ^tuto_([a-zA-Z0-9]+)\.html$   http://ar.fienders.com/tuto.php?lge=$1 
